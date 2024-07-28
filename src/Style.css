@@ -1,0 +1,19 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ... autres styles pour la taille, etc. */
+  }
+  
+  .modal-content {
+    /* Styles pour le contenu de la modale */
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    max-width: 700px; /* Pour limiter la largeur */
+  }
+  .modal-content p {
+    text-align: center;
+    font-size: large;
+  }
